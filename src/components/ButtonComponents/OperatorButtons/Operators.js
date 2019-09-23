@@ -4,6 +4,8 @@ import React from "react";
 
 //Import your array data to from the provided data file
 
+import {operators} from '../../../data.js'; 
+
 const Operators = () => {
   // STEP 2 - add the imported data to state
   return (
