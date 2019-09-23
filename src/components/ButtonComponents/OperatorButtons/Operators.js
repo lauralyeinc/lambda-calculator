@@ -6,8 +6,15 @@ import React from "react";
 
 import {operators} from '../../../data.js'; 
 
+
+// part of STEP 2 ????
+import { operators } from '../path/to/data'; 
+
 const Operators = () => {
   // STEP 2 - add the imported data to state
+
+  const [operationsState, setOperationState] = useState(operators); 
+
   return (
     <div>
       {/* STEP 3 - Use .map() to iterate over your array data and return a button

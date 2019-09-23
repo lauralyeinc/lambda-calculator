@@ -6,8 +6,12 @@ import React from "react";
 
 import {specials} from '../../../data.js'; 
 
+// part of STEP 2 ?????
+import { specials } from '../path/to/data';
+
 const Specials = () => {
   // STEP 2 - add the imported data to state
+  const [specialsState, setSpecialState] = useState(specials); 
 
   return (
     <div>
