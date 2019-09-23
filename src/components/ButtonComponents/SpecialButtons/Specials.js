@@ -6,6 +6,8 @@ import React from "react";
 
 import {specials} from '../../../data.js'; 
 
+import SpecialButton from './SpecialButton.js';
+
 // part of STEP 2 ?????
 import { specials } from '../path/to/data';
 

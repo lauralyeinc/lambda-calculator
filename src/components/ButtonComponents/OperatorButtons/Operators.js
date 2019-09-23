@@ -6,6 +6,8 @@ import React from "react";
 
 import {operators} from '../../../data.js'; 
 
+import OperatorButton from './OperatorButton.js';
+
 
 // part of STEP 2 ????
 import { operators } from '../path/to/data'; 
@@ -20,6 +22,8 @@ const Operators = () => {
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass
        it any props needed by the child component*/}
+       const operatorsButtons = operators.map(operatorsDataObject => (<OperatorButton operationsData={operatorsDataObject}/>
+       ));
     </div>
   );
 };
