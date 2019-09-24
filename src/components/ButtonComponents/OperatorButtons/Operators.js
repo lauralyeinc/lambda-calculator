@@ -15,7 +15,7 @@ import { operators } from '../path/to/data';
 const Operators = () => {
   // STEP 2 - add the imported data to state
 
-  const [operatorState, setOperatorState] = useState(operators); 
+  const [operatorState, setOperatorState] = useState(); 
 
   return (
     <div>

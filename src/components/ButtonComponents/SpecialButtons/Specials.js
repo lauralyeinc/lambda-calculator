@@ -13,7 +13,7 @@ import { specials } from '../path/to/data';
 
 const Specials = () => {
   // STEP 2 - add the imported data to state
-  const [specialsState, setSpecialState] = useState(specials); 
+  const [specialsState, setSpecialState] = useState(); 
 
   return (
     <div>
