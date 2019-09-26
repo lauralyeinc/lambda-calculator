@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
 import Numbers from "./components/ButtonComponents/NumberButtons/Numbers.js";
+import Specials from "./components/ButtonComponents/SpecialButtons/Specials.js";
+import Operators from "./components/ButtonComponents/OperatorButtons/Operators.js";
 // Logo has already been provided for you. Do the same for the remaining components
 import Logo from "./components/DisplayComponents/Logo";
 

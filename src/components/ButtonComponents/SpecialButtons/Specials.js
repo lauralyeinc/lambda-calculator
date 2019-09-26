@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import { specials } from '../../../data.js'; 
 
@@ -8,7 +8,7 @@ import SpecialButton from './SpecialButton.js';
 
 const Specials = () => {
   // STEP 2 - add the imported data to state
-  const [specialsState, setSpecialState] = useState; 
+  //const [specials, setSpecial] = useState; 
 
   return (
     <div>
@@ -19,3 +19,5 @@ const Specials = () => {
     </div>
   );
 };
+
+export default Specials;
