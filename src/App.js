@@ -16,6 +16,8 @@ function App() {
       <Logo />
       <div className="App">
         <Numbers /> 
+        <Operators />
+        <Specials />
       </div>
     </div>
   );
